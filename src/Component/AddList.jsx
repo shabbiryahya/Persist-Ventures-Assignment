@@ -48,14 +48,15 @@ console.log(updatedList);
   if(updatedList[ind].note.includes("<>"))
   {
     setShowSuggestion(true);
-    console.log("Yes");
+    // console.log("Yes");
+    // const data=
     
     
   }
   else
   {
     setShowSuggestion(false);
-    console.log("No");
+    // console.log("No");
   }
   
 }
