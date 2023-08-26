@@ -11,3 +11,12 @@
     background-color: #f1f1f1;
     border-radius: 6px;
   }
+ 
+ 
+  .blue-brackets {
+   color: blue;
+}
+.blue-brackets::after {
+  content: attr(data-text); /* Get the data-text attribute value */
+  color: blue;
+}
